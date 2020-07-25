@@ -7,7 +7,7 @@ app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(express.static("public"));
+app.use(express.static("build"));
 
 // Start the API server
 app.listen(PORT, () =>
