@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Navigation from './Navigation/Navigation';
+import Footer from './Footer/Footer';
 import Home from "./Pages/Home/Home";
 import ClubFiveSix from "./Pages/Food/ClubFiveSix";
 import TheBlitzLounge from "./Pages/Food/TheBlitzLounge";
@@ -24,6 +25,7 @@ function App() {
           <Route component={Home} />
         </Switch>
       </Router>
+      <Footer></Footer>
     </div>
   );
 }
