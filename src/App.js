@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
+import Navigation from './Navigation/Navigation';
+import Home from "./Pages/Home/Home";
+import ClubFiveSix from "./Pages/Food/ClubFiveSix";
+import TheBlitzLounge from "./Pages/Food/TheBlitzLounge";
+import TBoltCafe from "./Pages/Food/TBoltCafe";
+import TheGrill from "./Pages/Food/TheGrill";
+import Hensman from "./Pages/Food/Hensman";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation></Navigation>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/ClubFiveSix" component={ClubFiveSix} />
+          <Route exact path="/TheBlitzLounge" component={TheBlitzLounge} />
+          <Route exact path="/TBoltCafe" component={TBoltCafe} />
+          <Route exact path="/TheGrill" component={TheGrill} />
+          <Route exact path="/Hensman" component={Hensman} />
+          <Route component={Home} />
+        </Switch>
+      </Router>
     </div>
   );
 }
