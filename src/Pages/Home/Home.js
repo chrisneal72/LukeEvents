@@ -63,32 +63,32 @@ function Home() {
       </Carousel>
       <Container className="social-icon-cont">
         <Row>
-          <Col>
+          <Col xs={4} md={2}>
             <a href="https://www.facebook.com/LukeEvents/" target="_blank">
               <FontAwesomeIcon icon={['fab', 'facebook-f']} size="3x" />
             </a>
           </Col>
-          <Col>
+          <Col xs={4} md={2}>
             <a href="https://www.instagram.com/luke_events/" target="_blank">
               <FontAwesomeIcon icon={['fab', 'instagram']} size="3x" />
             </a>
           </Col>
-          <Col>
+          <Col xs={4} md={2}>
             <a href="https://twitter.com/luke_events/" target="_blank">
               <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" />
             </a>
           </Col>
-          <Col>
+          <Col xs={4} md={2}>
             <a href="https://www.lukeevents.com/category/enewsletter-feature/" target="_blank">
               <FontAwesomeIcon icon="envelope" size="3x" />
             </a>
           </Col>
-          <Col>
+          <Col xs={4} md={2}>
             <a href="https://www.lukeevents.com/category/enewsletter-feature/" target="_blank">
               <FontAwesomeIcon icon="mobile-alt" size="3x" />
             </a>
           </Col>
-          <Col>
+          <Col xs={4} md={2}>
             <a href="https://www.lukeevents.com/the_bolt/" target="_blank">
               <FontAwesomeIcon icon="book-open" size="3x" />
             </a>
