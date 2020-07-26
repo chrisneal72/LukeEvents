@@ -92,7 +92,7 @@ function ClubFiveSix() {
               <h5>Club Five Six</h5>
               623-856-6446<br />
               Bldg. 161<br />
-              Facebook.com/ClubFiveSix<br />
+              <a href="Facebook.com/ClubFiveSix" target="_blank">Facebook.com/ClubFiveSix</a><br />
             </Col>
           </Row>
           <Row xs={9} className="right-col-rows row-ul">
