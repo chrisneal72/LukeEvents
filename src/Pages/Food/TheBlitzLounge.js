@@ -18,7 +18,7 @@ function TheBlitzLounge() {
         <Col xs={12} sm={8} className="align-left">
           <Row>
             <Col>
-              <Image alt="Inside club" src="images/129A1280-800px.jpg" fluid />
+              <Image alt="Inside club" src="images/129A1280-800px.jpg" className="top-margin" fluid />
               <br />
               <b>The Blitz Lounge</b><br />
               is the spot for food or a get together. Wether you are celebrating a bithday or another special day. Reserve one of our great venues for a great event!<br />

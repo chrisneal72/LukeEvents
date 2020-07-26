@@ -27,7 +27,7 @@ function SmallIcons() {
           </a>
         </Col>
         <Col>
-          <a href="https://twitter.com/luke_events/" target="_blank">
+          <a href="https://www.youtube.com/channel/UClmNrBJZf1cvyIUFGP8NHTw/?disable_polymer=true" target="_blank">
             <FontAwesomeIcon icon={['fab', 'youtube']} size="2x" />
           </a>
         </Col>
