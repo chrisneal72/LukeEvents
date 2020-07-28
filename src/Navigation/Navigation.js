@@ -15,7 +15,6 @@ library.add(fab, envelope, mobilealt, bookopen);
 function Navigation(props) {
   return (
     <div>
-      (Top bar is conditionally rendering from a json file, links not functioning)<br />
       <Navbar className="nav-color" variant="dark" expand="lg">
         <Navbar.Brand href="#home">LukeEvents.com</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
