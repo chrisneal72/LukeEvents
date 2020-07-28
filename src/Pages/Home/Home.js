@@ -9,7 +9,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-function Home() {
+const Home = ({ state }) => {
   return (
     <div>
       <Carousel className="body-container" interval={4000}>
@@ -64,32 +64,32 @@ function Home() {
       <Container className="social-icon-cont">
         <Row>
           <Col xs={4} md={2}>
-            <a href="https://www.facebook.com/LukeEvents/" target="_blank">
+            <a href="https://www.facebook.com/LukeEvents/" rel="noopener noreferrer" target="_blank">
               <FontAwesomeIcon icon={['fab', 'facebook-f']} size="3x" />
             </a>
           </Col>
           <Col xs={4} md={2}>
-            <a href="https://www.instagram.com/luke_events/" target="_blank">
+            <a href="https://www.instagram.com/luke_events/" rel="noopener noreferrer" target="_blank">
               <FontAwesomeIcon icon={['fab', 'instagram']} size="3x" />
             </a>
           </Col>
           <Col xs={4} md={2}>
-            <a href="https://twitter.com/luke_events/" target="_blank">
+            <a href="https://twitter.com/luke_events/" rel="noopener noreferrer" target="_blank">
               <FontAwesomeIcon icon={['fab', 'twitter']} size="3x" />
             </a>
           </Col>
           <Col xs={4} md={2}>
-            <a href="https://www.lukeevents.com/category/enewsletter-feature/" target="_blank">
+            <a href="https://www.lukeevents.com/category/enewsletter-feature/" rel="noopener noreferrer" target="_blank">
               <FontAwesomeIcon icon="envelope" size="3x" />
             </a>
           </Col>
           <Col xs={4} md={2}>
-            <a href="https://www.lukeevents.com/category/enewsletter-feature/" target="_blank">
+            <a href="https://www.lukeevents.com/category/enewsletter-feature/" rel="noopener noreferrer" target="_blank">
               <FontAwesomeIcon icon="mobile-alt" size="3x" />
             </a>
           </Col>
           <Col xs={4} md={2}>
-            <a href="https://www.lukeevents.com/the_bolt/" target="_blank">
+            <a href="https://www.lukeevents.com/the_bolt/" rel="noopener noreferrer" target="_blank">
               <FontAwesomeIcon icon="book-open" size="3x" />
             </a>
           </Col>

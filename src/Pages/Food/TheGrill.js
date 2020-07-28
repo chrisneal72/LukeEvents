@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Food.css';
 import SmallIcons from "../../SmallIcons/SmallIcons";
 
-function TheGrill() {
+const TheGrill = ({ state }) => {
   return (
     <Container className="body-container">
       <Row className="top-row">
@@ -35,13 +35,13 @@ function TheGrill() {
           </Row>
           <Row>
             <Col className="top-margin">
-              <a href="https://lukeevents.com/wp-content/uploads/2016/05/To-go-Menu-5-26-16.pdf" target="_blank"><h5>Download the menu here</h5></a>
+              <a href="https://lukeevents.com/wp-content/uploads/2016/05/To-go-Menu-5-26-16.pdf" rel="noopener noreferrer" target="_blank"><h5>Download the menu here</h5></a>
             </Col>
           </Row>
         </Col>
         <Col xs={12} sm={4}>
           <Row className="right-col-rows map-col">
-            <img alt="map" src="images/TheGrillMap.jpg" />
+            <Image alt="map" src="images/TheGrillMap.jpg" />
           </Row>
           <Row xs={9} className="right-col-rows row-ul">
             <Col>
@@ -49,7 +49,7 @@ function TheGrill() {
               623-856-0004<br />
               15100 W. Northern Avenue<br />
               Waddell, Arizona, 85355<br />
-              <a href="Facebook.com/LukeGolfCourse" target="_blank">Facebook.com/LukeGolfCourse</a>
+              <a href="Facebook.com/LukeGolfCourse" rel="noopener noreferrer" target="_blank">Facebook.com/LukeGolfCourse</a>
             </Col>
           </Row>
           <Row xs={9} className="right-col-rows row-ul">

@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Food.css';
 import SmallIcons from "../../SmallIcons/SmallIcons";
 
-function TheBlitzLounge() {
+const TheBlitzLounge = ({ state }) => {
   return (
     <Container className="body-container">
       <Row className="top-row">
@@ -35,36 +35,36 @@ function TheBlitzLounge() {
           </Row>
           <Row>
             <Col xs={12} sm={6} className="top-margin">
-              <a href="https://lukeevents.com/wp-content/uploads/2016/12/AM_patio_form.pdf" target="_blank"><h5>Airmen’s Patio</h5></a>
+              <a href="https://lukeevents.com/wp-content/uploads/2016/12/AM_patio_form.pdf" rel="noopener noreferrer" target="_blank"><h5>Airmen’s Patio</h5></a>
             </Col>
             <Col xs={12} sm={6} className="top-margin">
-              <a href="https://lukeevents.com/wp-content/uploads/2016/12/CC_MPR_reservation_form.pdf" target="_blank"><h5>Multipurpose Room</h5></a>
+              <a href="https://lukeevents.com/wp-content/uploads/2016/12/CC_MPR_reservation_form.pdf" rel="noopener noreferrer" target="_blank"><h5>Multipurpose Room</h5></a>
             </Col>
           </Row>
           <Row>
             <Col xs={12} sm={6} className="top-margin">
-              <a href="https://www.lukeevents.com/wp-content/uploads/2019/10/Theater-Reservation-Request-2.pdf" target="_blank"><h5>Theater Forms</h5></a>
+              <a href="https://www.lukeevents.com/wp-content/uploads/2019/10/Theater-Reservation-Request-2.pdf" rel="noopener noreferrer" target="_blank"><h5>Theater Forms</h5></a>
             </Col>
             <Col xs={12} sm={6} className="top-margin">
-              <a href="https://www.lukeevents.com/wp-content/uploads/2019/08/Luke-AFB-Theatre-Checklist-as-of-Jan-2019.pdf" target="_blank"><h5>Theater checklist</h5></a>
+              <a href="https://www.lukeevents.com/wp-content/uploads/2019/08/Luke-AFB-Theatre-Checklist-as-of-Jan-2019.pdf" rel="noopener noreferrer" target="_blank"><h5>Theater checklist</h5></a>
             </Col>
           </Row>
           <Row>
             <Col className="top-margin">
-              <a href="https://www.lukeevents.com/wp-content/uploads/2019/09/Balloon_prices_poster.pdf" target="_blank"><h5>Balloony Tunes Pricing</h5></a>
+              <a href="https://www.lukeevents.com/wp-content/uploads/2019/09/Balloon_prices_poster.pdf" rel="noopener noreferrer" target="_blank"><h5>Balloony Tunes Pricing</h5></a>
             </Col>
           </Row>
         </Col>
         <Col xs={12} sm={4}>
           <Row className="right-col-rows map-col">
-            <img alt="map" src="images/Club56Map.jpg" />
+            <Image alt="map" src="images/Club56Map.jpg" />
           </Row>
           <Row xs={9} className="right-col-rows row-ul">
             <Col>
               <h5>The Blitz Lounge</h5>
               623-856-7152<br />
               Bldg. 700<br />
-              <a href="Facebook.com/LukeCommunity" target="_blank">Facebook.com/LukeCommunity</a>
+              <a href="Facebook.com/LukeCommunity" rel="noopener noreferrer" target="_blank">Facebook.com/LukeCommunity</a>
             </Col>
           </Row>
           <Row xs={9} className="right-col-rows row-ul">

@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect, useContext } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
+import Image from 'react-bootstrap/Image'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Food.css';
 import SmallIcons from "../../SmallIcons/SmallIcons";
@@ -19,7 +21,7 @@ function ClubFiveSix() {
         </Col>
         <Col xs={12} sm={24}>
           <Row className="right-col-rows">
-            <img alt="map" src="images/Club56Map.jpg" />
+            <Image alt="map" src="images/Club56Map.jpg" />
           </Row>
           <Row xs={9} className="right-col-rows row-ul">
             <Col>

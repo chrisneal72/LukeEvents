@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "category": "Home",
+    "type": "link",
+    "path": "/"
+  },
+  {
+    "id": 2,
+    "category": "Food",
+    "type": "dropdown",
+    "items": [
+      {
+        "title": "Club Five Six",
+        "type": "page"
+      },
+      {
+        "title": "The Blitz Lounge",
+        "type": "page"
+      },
+      {
+        "title": "T-Bolt Cafe",
+        "type": "page"
+      },
+      {
+        "title": "The Grill Snack Bar",
+        "type": "page"
+      },
+      {
+        "title": "Hensman Dining Facility",
+        "type": "page"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Family",
+    "type": "dropdown",
+    "items": [
+      {
+        "title": "Airman and Family Readiness",
+        "type": "page"
+      },
+      {
+        "title": "Child Development Center",
+        "type": "page"
+      },
+      {
+        "title": "Family Child Care",
+        "type": "page"
+      },
+      {
+        "title": "Youth Programs",
+        "type": "page"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Leisure",
+    "type": "dropdown",
+    "items": [
+      {
+        "title": "Bryant Fitness Center",
+        "type": "page"
+      },
+      {
+        "title": "Arts & Crafts",
+        "type": "page"
+      },
+      {
+        "title": "Auto Shop",
+        "type": "page"
+      },
+      {
+        "title": "Vehicle Storage",
+        "type": "page"
+      },
+      {
+        "title": "Community Commons",
+        "type": "page"
+      },
+      {
+        "title": "Library",
+        "type": "page"
+      },
+      {
+        "title": "Luke Printing",
+        "type": "page"
+      },
+      {
+        "title": "Silver Wings Pool",
+        "type": "page"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Recreation",
+    "type": "dropdown",
+    "items": [
+      {
+        "title": "Falcon Dunes Golf Course",
+        "type": "page"
+      },
+      {
+        "title": "FamCamp",
+        "type": "page"
+      },
+      {
+        "title": "NAF Online Store",
+        "type": "page"
+      },
+      {
+        "title": "R4R - Recharge for Resiliency",
+        "type": "page"
+      },
+      {
+        "title": "Unite",
+        "type": "page"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Trips & Travel",
+    "type": "dropdown",
+    "items": [
+      {
+        "title": "Fighter Country Inn",
+        "type": "page"
+      },
+      {
+        "title": "Fort Tuthill",
+        "type": "page"
+      },
+      {
+        "title": "Information, Tickets & Travel",
+        "type": "page"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Force Support",
+    "type": "dropdown",
+    "items": [
+      {
+        "title": "Careers - Civilian Personnel",
+        "type": "page"
+      },
+      {
+        "title": "Careers - NAF Human Resources Office",
+        "type": "page"
+      },
+      {
+        "title": "Education",
+        "type": "page"
+      },
+      {
+        "title": "Honor Guard",
+        "type": "page"
+      },
+      {
+        "title": "Mortuary Affairs",
+        "type": "page"
+      },
+      {
+        "title": "Private Organizations",
+        "type": "page"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Sponsorship & Advertising",
+    "type": "link",
+    "path": ""
+  },
+  {
+    "id": 7,
+    "category": "Get Connected",
+    "type": "dropdown",
+    "items": [
+      {
+        "title": "Calendar",
+        "type": "page"
+      },
+      {
+        "title": "Email",
+        "type": "page"
+      },
+      {
+        "title": "Facebook",
+        "type": "link",
+        "path": ""
+      },
+      {
+        "title": "Instagram",
+        "type": "link",
+        "path": ""
+      },
+      {
+        "title": "Text",
+        "type": "page"
+      },
+      {
+        "title": "The Bolt Magazine",
+        "type": "page"
+      },
+      {
+        "title": "Twitter",
+        "type": "link",
+        "path": ""
+      },
+      {
+        "title": "YouTube",
+        "type": "link",
+        "path": ""
+      }
+    ]
+  }
+]

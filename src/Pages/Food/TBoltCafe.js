@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Food.css';
 import SmallIcons from "../../SmallIcons/SmallIcons";
 
-function TBoltCafe() {
+const TBoltCafe = ({ state }) => {
   return (
     <Container className="body-container">
       <Row className="top-row">
@@ -18,7 +18,7 @@ function TBoltCafe() {
         <Col xs={12} sm={8} className="align-left">
           <Row>
             <Col>
-              <img alt="Inside club" src="images/TBoltCafe-sq.jpg" className="image-left" />
+              <Image alt="Inside club" src="images/TBoltCafe-sq.jpg" className="image-left" />
               <br />
               <b>The T-Bolt Cafe</b><br />
               is your go to spot for that quick meal!<br />
@@ -35,20 +35,20 @@ function TBoltCafe() {
           </Row>
           <Row>
             <Col className="top-margin">
-              <a href="https://www.lukeevents.com/wp-content/uploads/2019/10/T-Bolt-Cafe-Box-Meal-Request-Form.docx" target="_blank"><h5>Download the order form here for your box lunch</h5></a>
+              <a href="https://www.lukeevents.com/wp-content/uploads/2019/10/T-Bolt-Cafe-Box-Meal-Request-Form.docx" rel="noopener noreferrer" target="_blank"><h5>Download the order form here for your box lunch</h5></a>
             </Col>
           </Row>
         </Col>
         <Col xs={12} sm={4}>
           <Row className="right-col-rows map-col">
-            <img alt="map" src="images/Club56Map.jpg" />
+            <Image alt="map" src="images/Club56Map.jpg" />
           </Row>
           <Row xs={9} className="right-col-rows row-ul">
             <Col>
               <h5>T-Bolt Café Flight Kitchen</h5>
               623-856-6420<br />
               Bldg. 954<br />
-              <a href="Facebook.com/Hensman-Dining-Facility-Flight-Kitchen" target="_blank">Facebook.com/Hensman-Dining-Facility-Flight-Kitchen</a>
+              <a href="Facebook.com/Hensman-Dining-Facility-Flight-Kitchen" rel="noopener noreferrer" target="_blank">Facebook.com/Hensman-Dining-Facility-Flight-Kitchen</a>
             </Col>
           </Row>
           <Row xs={9} className="right-col-rows row-ul">

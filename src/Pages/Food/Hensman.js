@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Food.css';
 import SmallIcons from "../../SmallIcons/SmallIcons";
 
-function Hensman() {
+const Hensman = ({ state }) => {
   return (
     <Container className="body-container">
       <Row className="top-row">
@@ -37,14 +37,14 @@ function Hensman() {
         </Col>
         <Col xs={12} sm={4}>
           <Row className="right-col-rows map-col">
-            <img alt="map" src="images/DFAC-Map.jpg" />
+            <Image alt="map" src="images/DFAC-Map.jpg" />
           </Row>
           <Row xs={9} className="right-col-rows row-ul">
             <Col>
               <h5>Hensman Dining Facility</h5>
               623-856-6396<br />
               Bldg. 545<br />
-              <a href="Facebook.com//LukeDFAC" target="_blank">Facebook.com//LukeDFAC</a>
+              <a href="Facebook.com//LukeDFAC" rel="noopener noreferrer" target="_blank">Facebook.com//LukeDFAC</a>
             </Col>
           </Row>
           <Row xs={9} className="right-col-rows row-ul">
