@@ -28,7 +28,7 @@ function Navigation(props) {
                     {section.items.map(item => {
                       return (
                         <>
-                          <NavDropdown.Item href={item.path}>{item.title} - {item.index}</NavDropdown.Item>
+                          <NavDropdown.Item href={item.path}>{item.title}</NavDropdown.Item>
                         </>
                       )
                     })
