@@ -12,23 +12,28 @@
     "items": [
       {
         "title": "Club Five Six",
-        "type": "page"
+        "type": "page",
+        "path": "ClubFiveSix"
       },
       {
         "title": "The Blitz Lounge",
-        "type": "page"
+        "type": "page",
+        "path": "TheBlitzLounge"
       },
       {
         "title": "T-Bolt Cafe",
-        "type": "page"
+        "type": "page",
+        "path": "TBoltCafe"
       },
       {
         "title": "The Grill Snack Bar",
-        "type": "page"
+        "type": "page",
+        "path": "TheGrill"
       },
       {
         "title": "Hensman Dining Facility",
-        "type": "page"
+        "type": "page",
+        "path": "Hensman"
       }
     ]
   },
@@ -39,19 +44,23 @@
     "items": [
       {
         "title": "Airman and Family Readiness",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Child Development Center",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Family Child Care",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Youth Programs",
-        "type": "page"
+        "type": "page",
+        "path": ""
       }
     ]
   },
@@ -62,35 +71,43 @@
     "items": [
       {
         "title": "Bryant Fitness Center",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Arts & Crafts",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Auto Shop",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Vehicle Storage",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Community Commons",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Library",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Luke Printing",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Silver Wings Pool",
-        "type": "page"
+        "type": "page",
+        "path": ""
       }
     ]
   },
@@ -101,23 +118,28 @@
     "items": [
       {
         "title": "Falcon Dunes Golf Course",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "FamCamp",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "NAF Online Store",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "R4R - Recharge for Resiliency",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Unite",
-        "type": "page"
+        "type": "page",
+        "path": ""
       }
     ]
   },
@@ -128,15 +150,18 @@
     "items": [
       {
         "title": "Fighter Country Inn",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Fort Tuthill",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Information, Tickets & Travel",
-        "type": "page"
+        "type": "page",
+        "path": ""
       }
     ]
   },
@@ -147,27 +172,33 @@
     "items": [
       {
         "title": "Careers - Civilian Personnel",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Careers - NAF Human Resources Office",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Education",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Honor Guard",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Mortuary Affairs",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Private Organizations",
-        "type": "page"
+        "type": "page",
+        "path": ""
       }
     ]
   },
@@ -175,7 +206,7 @@
     "id": 8,
     "category": "Sponsorship & Advertising",
     "type": "link",
-    "path": ""
+    "path": "/sponsorship-advertising/"
   },
   {
     "id": 7,
@@ -184,11 +215,13 @@
     "items": [
       {
         "title": "Calendar",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Email",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Facebook",
@@ -202,11 +235,13 @@
       },
       {
         "title": "Text",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "The Bolt Magazine",
-        "type": "page"
+        "type": "page",
+        "path": ""
       },
       {
         "title": "Twitter",
