@@ -64,7 +64,7 @@ const TheBlitzLounge = ({ state }) => {
               <h5>The Blitz Lounge</h5>
               623-856-7152<br />
               Bldg. 700<br />
-              <a href="Facebook.com/LukeCommunity" rel="noopener noreferrer" target="_blank">Facebook.com/LukeCommunity</a>
+              <a href="http://www.Facebook.com/LukeCommunity" rel="noopener noreferrer" target="_blank">Facebook.com/LukeCommunity</a>
             </Col>
           </Row>
           <Row xs={9} className="right-col-rows row-ul">

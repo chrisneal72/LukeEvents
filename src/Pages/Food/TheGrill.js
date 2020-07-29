@@ -49,7 +49,7 @@ const TheGrill = ({ state }) => {
               623-856-0004<br />
               15100 W. Northern Avenue<br />
               Waddell, Arizona, 85355<br />
-              <a href="Facebook.com/LukeGolfCourse" rel="noopener noreferrer" target="_blank">Facebook.com/LukeGolfCourse</a>
+              <a href="http://www.Facebook.com/LukeGolfCourse" rel="noopener noreferrer" target="_blank">Facebook.com/LukeGolfCourse</a>
             </Col>
           </Row>
           <Row xs={9} className="right-col-rows row-ul">

@@ -44,7 +44,7 @@ const Hensman = ({ state }) => {
               <h5>Hensman Dining Facility</h5>
               623-856-6396<br />
               Bldg. 545<br />
-              <a href="Facebook.com//LukeDFAC" rel="noopener noreferrer" target="_blank">Facebook.com//LukeDFAC</a>
+              <a href="http://www.Facebook.com/LukeDFAC" rel="noopener noreferrer" target="_blank">Facebook.com/LukeDFAC</a>
             </Col>
           </Row>
           <Row xs={9} className="right-col-rows row-ul">

@@ -48,7 +48,7 @@ const TBoltCafe = ({ state }) => {
               <h5>T-Bolt Café Flight Kitchen</h5>
               623-856-6420<br />
               Bldg. 954<br />
-              <a href="Facebook.com/Hensman-Dining-Facility-Flight-Kitchen" rel="noopener noreferrer" target="_blank">Facebook.com/Hensman-Dining-Facility-Flight-Kitchen</a>
+              <a href="http://www.Facebook.com/Hensman-Dining-Facility-Flight-Kitchen" rel="noopener noreferrer" target="_blank">Facebook.com/Hensman-Dining-Facility-Flight-Kitchen</a>
             </Col>
           </Row>
           <Row xs={9} className="right-col-rows row-ul">

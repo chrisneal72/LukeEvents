@@ -93,7 +93,7 @@ const ClubFiveSix = ({ state }) => {
               <h5>Club Five Six</h5>
               623-856-6446<br />
               Bldg. 161<br />
-              <a href="Facebook.com/ClubFiveSix" rel="noopener noreferrer" target="_blank">Facebook.com/ClubFiveSix</a><br />
+              <a href="http://www.Facebook.com/ClubFiveSix" rel="noopener noreferrer" target="_blank">Facebook.com/ClubFiveSix</a><br />
             </Col>
           </Row>
           <Row xs={9} className="right-col-rows row-ul">

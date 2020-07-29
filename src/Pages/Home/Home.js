@@ -16,7 +16,7 @@ const Home = ({ state }) => {
         <Carousel.Item>
           <img
             className="w-100"
-            src="images\plane2.png"
+            src="images\plane2.jpg"
             alt="First slide"
           />
           {/* <Carousel.Caption>
@@ -28,7 +28,7 @@ const Home = ({ state }) => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="images\food_cover_photo2.png"
+            src="images\food_cover_photo2.jpg"
             alt="Third slide"
           />
           {/* <Carousel.Caption>
@@ -40,7 +40,7 @@ const Home = ({ state }) => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="images\family_cover_photo-1.png"
+            src="images\family_cover_photo-1.jpg"
             alt="Third slide"
           />
           {/* <Carousel.Caption>
@@ -52,7 +52,7 @@ const Home = ({ state }) => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="images\fun_cover_banner-2.png"
+            src="images\fun_cover_banner-2.jpg"
             alt="Third slide"
           />
           {/* <Carousel.Caption>
