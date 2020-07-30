@@ -20,21 +20,21 @@ function Navigation(props) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            {props.navData.map(section => {
+            {props.navData.map((section, sIdx) => {
               return (
-                <>
-                  {section.type === 'link' ? <Nav.Link href={section.path}>{section.category}</Nav.Link> : ''}
-                  {section.type === 'dropdown' ? <NavDropdown title={section.category} id='basic-nav-dropdown'>
-                    {section.items.map(item => {
+                <div key={sIdx}>
+                  {section.type === 'link' ? <Nav.Link href={section.path} key={section.id}>{section.category}</Nav.Link> : ''}
+                  {section.type === 'dropdown' ? <NavDropdown title={section.category} key={section.id} id='basic-nav-dropdown'>
+                    {section.items.map((item, idx) => {
                       return (
-                        <>
-                          <NavDropdown.Item href={item.path}>{item.title}</NavDropdown.Item>
-                        </>
+                        <div key={idx}>
+                          <NavDropdown.Item key={idx} href={item.path}>{item.title} - {idx}</NavDropdown.Item>
+                        </div>
                       )
                     })
                     }
                   </NavDropdown> : ''}
-                </>
+                </div>
               )
             })}
           </Nav>

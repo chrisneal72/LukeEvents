@@ -9,7 +9,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Home = ({ state }) => {
+const Home = () => {
   return (
     <div>
       <Carousel className="body-container" interval={4000}>
