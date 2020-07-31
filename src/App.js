@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Navigation from './Navigation/Navigation';
 import Footer from './Footer/Footer';
-import Home from "./Pages/Home/Home";
+import Home from "./Home/Home";
 import ClubFiveSix from "./Pages/Food/ClubFiveSix";
 import TheBlitzLounge from "./Pages/Food/TheBlitzLounge";
 import TBoltCafe from "./Pages/Food/TBoltCafe";

@@ -1,7 +1,7 @@
 {
   "template": "Style1",
   "title": "Club Five Six",
-  "topImage": "images/DFAC-800.jpg",
+  "topImage": "",
   "mainImage": "images/Club56-sq.jpg",
   "mapImage": "images/Club56Map.jpg",
   "facebook": "Facebook.com/ClubFiveSix",
@@ -27,5 +27,58 @@
       "title": "Wingman Wednesday",
       "lines": [{ "line": "4:30pm-8pm" }]
     }
-  ]
+  ],
+  "addInfo": {
+    "title": "CLUB MEMBER REWARDS",
+    "button": {
+      "title": "SIGN UP HERE",
+      "path": "https://www.memberplanet.com/account/usaf"
+    },
+    "info": [
+      {
+        "type": "ulList",
+        "title": "Club Five Six",
+        "path": "",
+        "lines": [
+          { "line": "$2 off lunch and dinner" },
+          { "line": "$2 off unit functions" },
+          { "line": "10% off catering" },
+          { "line": "$10 off B-Day meal" },
+          { "line": "Member event pricing" }
+        ]
+      },
+      {
+        "type": "ulList",
+        "title": "Falcon Dunes",
+        "lines": [
+          { "line": "10% off green fees" },
+          { "line": "10% off cart rental" }
+        ]
+      },
+      {
+        "type": "ulList",
+        "title": "Fort Tuthill",
+        "path": "",
+        "lines": [{ "line": "$5 off lodging" }, { "line": "$2 off RV sites" }]
+      },
+      {
+        "type": "ulList",
+        "title": "Auto Hobby",
+        "path": "",
+        "lines": [{ "line": "10% off stall fees" }]
+      },
+      {
+        "type": "ulList",
+        "title": "Outdoor Recreation",
+        "path": "",
+        "lines": [{ "line": "10% off rentals" }]
+      },
+      {
+        "type": "ulList",
+        "title": "Information, Tickets, and Travel",
+        "path": "",
+        "lines": [{ "line": "2% off Disney Military Salute Tickets" }]
+      }
+    ]
+  }
 }

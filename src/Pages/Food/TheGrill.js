@@ -20,8 +20,7 @@ const TheGrill = ({ state }) => {
             <Col>
               <img alt="Inside club" src="images/TheGrill-sq.jpg" className="image-left" />
               <br />
-              <b>The T-Bolt Cafe</b><br />
-              is the place to go, pre-game, post-game we are here for you. On your way to the 19th hole? Grab a delicious bite to eat from us on your way.<br />
+              <b>The T-Bolt Cafe</b> is the place to go, pre-game, post-game we are here for you. On your way to the 19th hole? Grab a delicious bite to eat from us on your way.<br />
               <br />
               <b>Got an early Tee Time?</b><br />
               Check out the breakfast menu. Get fueled up before hitting the links. Breafast sandwhich, burrito? How about some biscuits and gravy!?<br />

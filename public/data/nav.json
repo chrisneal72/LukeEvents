@@ -11,56 +11,24 @@
     "type": "dropdown",
     "items": [
       {
-        "title": "ClubFiveSix",
-        "type": "page",
-        "path": "ClubFiveSix"
-      },
-      {
-        "title": "TheBlitzLounge",
-        "type": "page",
-        "path": "TheBlitzLounge"
-      },
-      {
-        "title": "TBoltCafe",
-        "type": "page",
-        "path": "TBoltCafe"
-      },
-      {
-        "title": "TheGrill",
-        "type": "page",
-        "path": ""
-      },
-      {
-        "title": "Hensman",
-        "type": "page",
-        "path": ""
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "category": "Food",
-    "type": "dropdown",
-    "items": [
-      {
         "title": "Club Five Six",
         "type": "page",
-        "path": "ClubFiveSix"
+        "path": ""
       },
       {
         "title": "The Blitz Lounge",
         "type": "page",
-        "path": "TheBlitzLounge"
+        "path": ""
       },
       {
         "title": "T-Bolt Cafe",
         "type": "page",
-        "path": "TBoltCafe"
+        "path": ""
       },
       {
         "title": "The Grill Snack Bar",
         "type": "page",
-        "path": "TheGrill"
+        "path": ""
       },
       {
         "title": "Hensman Dining Facility",

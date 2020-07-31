@@ -20,8 +20,7 @@ const Hensman = ({ state }) => {
             <Col>
               <Image alt="Inside club" src="images/DFAC-800.jpg" className="top-margin" fluid />
               <br />
-              <b>The Dining Facility</b><br />
-              offers a variety of nutritional entrées for all enlisted personnel assigned and TDY to Luke Air Force Base.<br />
+              <b>The Dining Facility</b> offers a variety of nutritional entrées for all enlisted personnel assigned and TDY to Luke Air Force Base.<br />
               <br />
               <b>Pure Bar Salad Bar</b><br />
               In addition to traditional salad ingredients, a rotating daily selection of
