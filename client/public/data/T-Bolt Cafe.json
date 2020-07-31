@@ -1,0 +1,44 @@
+{
+  "template": "Style1",
+  "title": "T-Bolt Cafe",
+  "topImage": "",
+  "mainImage": "images/TBoltCafe-sq.jpg",
+  "mapImage": "images/Club56Map.jpg",
+  "facebook": "Facebook.com/Hensman-Dining-Facility-Flight-Kitchen",
+  "bodyCopy": "<b>The T-Bolt Cafe</b> is your go to spot for that quick meal!<br /><br /><b>Do you have a quick turn coming up?</b><br />Order your box lunch and have it waiting for you to pick up. A quick and easy meal to give you more time to get everything done.<br /><br /><b>Working the late shift?</b><br />Get that midnight meal to power you through the night. Quick and easy giving you more time.<br />",
+  "facInfo": [
+    {
+      "title": "T-Bolt Café Flight Kitchen",
+      "lines": [{ "line": "623-856-6420" }, { "line": "Bldg. 954" }]
+    },
+    {
+      "title": "Monday – Friday",
+      "lines": [{ "line": "Lunch · 11am-1pm" }, { "line": "Dinner · 5-7pm" }]
+    },
+    {
+      "title": "Midnight Meal",
+      "lines": [{ "line": "Sunday – Thursday" }, { "line": "11:30pm-1am" }]
+    }
+  ],
+  "addInfo": {
+    "title": "Place your order!",
+    "button": {
+      "title": "",
+      "path": ""
+    },
+    "info": [
+      {
+        "type": "listLink",
+        "title": "Download the order form here for your box lunch",
+        "path": "https://www.lukeevents.com/wp-content/uploads/2019/10/T-Bolt-Cafe-Box-Meal-Request-Form.docx",
+        "lines": [
+          { "line": "" },
+          { "line": "" },
+          { "line": "" },
+          { "line": "" },
+          { "line": "" }
+        ]
+      }
+    ]
+  }
+}

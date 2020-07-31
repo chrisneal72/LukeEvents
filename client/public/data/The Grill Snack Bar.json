@@ -1,0 +1,42 @@
+{
+  "template": "Style1",
+  "title": "The Grill Snack Bar",
+  "topImage": "",
+  "mainImage": "images/TheGrill-sq.jpg",
+  "mapImage": "images/TheGrillMap.jpg",
+  "facebook": "Facebook.com/LukeGolfCourse",
+  "bodyCopy": "<b>The T-Bolt Cafe</b> is the place to go, pre-game, post-game we are here for you. On your way to the 19th hole? Grab a delicious bite to eat from us on your way.<br /><br /><b>Got an early Tee Time?</b><br />Check out the breakfast menu. Get fueled up before hitting the links. Breafast sandwhich, burrito? How about some biscuits and gravy!?<br /><br /><b>Playing a mid day round?</b><br />Check out the what is coming off the grill to put a smile on your face. A great assorment of beverages for you to chose from as well. Need something light? we got you covered, grab a crisp salad.<br />",
+  "facInfo": [
+    {
+      "title": "Falcon Dunes Grill",
+      "lines": [
+        { "line": "623-856-0004" },
+        { "line": "15100 W. Northern Avenue" },
+        { "line": "Waddell, Arizona, 85355" }
+      ]
+    },
+    {
+      "title": "Summer Hours:",
+      "lines": [
+        { "line": "Sunday-Friday" },
+        { "line": "5:30am – 1:30pm" },
+        { "line": "Saturday" },
+        { "line": "5:30am-3pm" }
+      ]
+    }
+  ],
+  "addInfo": {
+    "title": "Check out this MENU!",
+    "button": {
+      "title": "",
+      "path": ""
+    },
+    "info": [
+      {
+        "type": "listLink",
+        "title": "Download the menu here",
+        "path": "https://lukeevents.com/wp-content/uploads/2016/05/To-go-Menu-5-26-16.pdf"
+      }
+    ]
+  }
+}

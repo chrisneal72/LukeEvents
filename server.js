@@ -1,14 +1,33 @@
+// require("dotenv").config();
 const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 3030;
 const path = require("path");
+const PORT = process.env.PORT || 3001;
+// const connectToDatabase = require("./config/db");
+// const events = require("./routes/events");
+// const users = require("./routes/users");
+// const protected = require("./routes/protected");
 
-app.use(express.static("build"));
+// Middleware
+// app.use(express.json());
 
-app.get("*", function (req, res) {
-  res.sendFile(path.resolve(__dirname, "build/index.html"));
+// Router
+// app.use("/api/events", events);
+// app.use("/api/users", users);
+// app.use("/", protected);
+
+// Static directory to be served
+//app.use(express.static("client/build"));
+app.use(express.static("client/public"));
+
+// This will eventually be the React entrance route
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  // res.sendFile(path.resolve(__dirname, "client/build/index.html"));
 });
 
-app.listen(PORT, function () {
-  console.log("App listening on PORT:", PORT);
-});
+// connectToDatabase();
+
+app.listen(PORT, () =>
+  console.log(`Express server listening on port ${PORT}.`)
+);
