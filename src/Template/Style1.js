@@ -1,49 +1,27 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import TopImage from './modules/TopImage';
-import MainImage from './modules/MainImage';
-import MapImage from './modules/MapImage';
-import FacInfo from './modules/FacInfo';
-import FacebookLink from './modules/FacebookLink';
-import BodyCopy from './modules/BodyCopy';
+import { Row, Col, Button } from "react-bootstrap";
+import { TopImage, MainImage, MapImage, FacInfo, FacebookLink, BodyCopy } from './modules';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './template.css';
 import SmallIcons from "../SmallIcons/SmallIcons";
 
-const Page = ({ match }) => {
-
-  const [currentPage, setCurrentPage] = useState([]);
-
-  useEffect(() => {
-    axios
-      .get(`./data/${match.params.pageId}.json`)
-      .then(response => {
-        setCurrentPage(response.data);
-      })
-      .catch(err => {
-        console.log(err);
-      });
-  }, [match.params.pageId]);
-
+const Style1 = (props) => {
   return (
     <Container className="body-container">
       <Row className="top-row">
-        <Col xs={12} sm={6} className="align-left"><h2>{match.params.pageId}</h2></Col>
+        <Col xs={12} sm={6} className="align-left"><h2>{props.currentPage.title}</h2></Col>
         <Col xs={12} sm={6}><SmallIcons></SmallIcons></Col>
       </Row>
-      {currentPage.facebook ? <FacebookLink path={currentPage.facebook} /> : ''}
+      {props.currentPage.facebook ? <FacebookLink path={props.currentPage.facebook} /> : ''}
       <Row>
         <Col xs={12} sm={8} className="align-left">
           <Row>
             <Col>
-              {currentPage.topImage ? <TopImage path={currentPage.topImage} /> : ''}
-              {currentPage.mainImage ? <MainImage path={currentPage.mainImage} /> : ''}
+              {props.currentPage.topImage ? <TopImage path={props.currentPage.topImage} /> : ''}
+              {props.currentPage.mainImage ? <MainImage path={props.currentPage.mainImage} /> : ''}
               <br />
-              <BodyCopy text={currentPage.bodyCopy} />
+              <BodyCopy text={props.currentPage.bodyCopy} />
             </Col>
           </Row>
           <Row className="top-row">
@@ -100,12 +78,12 @@ const Page = ({ match }) => {
           </Row>
         </Col>
         <Col xs={12} sm={4}>
-          {currentPage.mapImage ? <MapImage path={currentPage.mapImage} /> : ''}
-          {currentPage.facInfo ? <FacInfo info={currentPage.facInfo} /> : ''}
+          {props.currentPage.mapImage ? <MapImage path={props.currentPage.mapImage} /> : ''}
+          {props.currentPage.facInfo ? <FacInfo info={props.currentPage.facInfo} /> : ''}
         </Col>
       </Row>
     </Container>
   );
 }
 
-export default Page;
+export default Style1;

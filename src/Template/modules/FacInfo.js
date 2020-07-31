@@ -16,7 +16,9 @@ const FacInfo = (props) => {
               {item.title ? <h5>{item.title}</h5> : ''}
               {item.lines.map((line, idx) => {
                 return (
-                  <FacInfoLine key={idx} text={line.line} />
+                  <div key={idx}>
+                    {line.line ? <FacInfoLine text={line.line} /> : ''}
+                  </div>
                 )
               })}
             </Col>

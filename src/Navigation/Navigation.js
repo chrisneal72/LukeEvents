@@ -2,9 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navigation.css';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 // import Form from 'react-bootstrap/Form';
 // import FormControl from 'react-bootstrap/FormControl';
 // import Button from 'react-bootstrap/Button';
@@ -37,12 +36,12 @@ function Navigation() {
             {navData.map((section, sIdx) => {
               return (
                 <div key={sIdx}>
-                  {section.type === 'link' ? <Nav.Link href={section.path} key={section.id}>{section.category}</Nav.Link> : ''}
+                  {section.type === 'link' ? <Nav.Link as={Link} to={section.path} key={section.id}>{section.category}</Nav.Link> : ''}
                   {section.type === 'dropdown' ? <NavDropdown title={section.category} key={section.id} id='basic-nav-dropdown'>
                     {section.items.map((item, idx) => {
                       return (
                         <div key={idx}>
-                          <NavDropdown.Item key={idx} href={item.title}>{item.title}</NavDropdown.Item>
+                          <NavDropdown.Item key={idx} as={Link} to={item.title}>{item.title}</NavDropdown.Item>
                         </div>
                       )
                     })

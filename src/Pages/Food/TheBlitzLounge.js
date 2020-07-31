@@ -20,8 +20,7 @@ const TheBlitzLounge = ({ state }) => {
             <Col>
               <Image alt="Inside club" src="images/129A1280-800px.jpg" className="top-margin" fluid />
               <br />
-              <b>The Blitz Lounge</b><br />
-              is the spot for food or a get together. Wether you are celebrating a bithday or another special day. Reserve one of our great venues for a great event!<br />
+              <b>The Blitz Lounge</b> is the spot for food or a get together. Wether you are celebrating a bithday or another special day. Reserve one of our great venues for a great event!<br />
               <br />
               <b>Looking for a fun location?</b><br />
               We have the room to match your Event! We the Airmen's Patio for a breath of fresh air, the Theater for that stunning visual presentation, or our spacious Multipurpose room.<br />

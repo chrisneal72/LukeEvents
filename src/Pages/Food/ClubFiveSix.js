@@ -21,8 +21,7 @@ const ClubFiveSix = ({ state }) => {
             <Col>
               <Image alt="Inside club" src="images/Club56-sq.jpg" className="image-left" />
               <br />
-              <b>Club Five Six</b><br />
-              is your go to spot for dining, entertainment, and special events on Luke Air Force Base!<br />
+              <b>Club Five Six</b> is your go to spot for dining, entertainment, and special events on Luke Air Force Base!<br />
               <br />
               <b>Want to have fun?</b><br />
               Club Five Six hosts theme parties, satellite-broadcast sporting events, live bands, DJs, bingo nights, karaoke nights, and more. Check the calendar for this months events!<br />

@@ -1,0 +1,19 @@
+{
+  "template": "Style1",
+  "title": "The Blitz Lounge",
+  "topImage": "images/129A1280-800px.jpg",
+  "mainImage": "",
+  "mapImage": "images/Club56Map.jpg",
+  "facebook": "Facebook.com/LukeCommunity",
+  "bodyCopy": "<b>The Blitz Lounge</b> is the spot for food or a get together. Wether you are celebrating a bithday or another special day. Reserve one of our great venues for a great event!<br /><br /><b>Looking for a fun location?</b><br />We have the room to match your Event! We the Airmen's Patio for a breath of fresh air, the Theater for that stunning visual presentation, or our spacious Multipurpose room.<br /><br /><b>How about decorations?</b><br />Our Balloony Tunes store is conveniently located to decorate your event with great prices.<br />",
+  "facInfo": [
+    {
+      "title": "The Blitz Lounge",
+      "lines": [{ "line": "623-856-7152" }, { "line": "Bldg. 700" }]
+    },
+    {
+      "title": "Monday – Friday",
+      "lines": [{ "line": "Breakfast" }, { "line": "6:30-9am" }]
+    }
+  ]
+}

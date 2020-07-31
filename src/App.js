@@ -9,14 +9,14 @@ import TheBlitzLounge from "./Pages/Food/TheBlitzLounge";
 import TBoltCafe from "./Pages/Food/TBoltCafe";
 import TheGrill from "./Pages/Food/TheGrill";
 import Hensman from "./Pages/Food/Hensman";
-import Template from "./Template/Template";
+import Base from "./Template/Base";
 
 function App() {
 
   return (
     <div className="App">
-      <Navigation />
       <Router>
+        <Navigation />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/ClubFiveSix" component={ClubFiveSix} />
@@ -24,11 +24,11 @@ function App() {
           <Route exact path="/TBoltCafe" component={TBoltCafe} />
           <Route exact path="/TheGrill" component={TheGrill} />
           <Route exact path="/Hensman" component={Hensman} />
-          <Route exact path="/:pageId" component={Template} />
+          <Route exact path="/:pageId" component={Base} />
           <Route component={Home} />
         </Switch>
+        <Footer></Footer>
       </Router>
-      <Footer></Footer>
     </div>
   );
 }
