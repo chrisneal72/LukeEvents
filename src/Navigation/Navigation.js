@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navigation.css';
 import Navbar from 'react-bootstrap/Navbar';
@@ -12,7 +13,20 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope as envelope, faMobileAlt as mobilealt, faBookOpen as bookopen } from '@fortawesome/free-solid-svg-icons'
 library.add(fab, envelope, mobilealt, bookopen);
 
-function Navigation(props) {
+function Navigation() {
+  const [navData, setNavData] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get(`./data/nav.json`)
+      .then(response => {
+        setNavData(response.data);
+      })
+      .catch(err => {
+        console.log(err);
+      });
+  }, []);
+
   return (
     <div>
       <Navbar className="nav-color" variant="dark" expand="lg">
@@ -20,7 +34,7 @@ function Navigation(props) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            {props.navData.map((section, sIdx) => {
+            {navData.map((section, sIdx) => {
               return (
                 <div key={sIdx}>
                   {section.type === 'link' ? <Nav.Link href={section.path} key={section.id}>{section.category}</Nav.Link> : ''}
@@ -28,7 +42,7 @@ function Navigation(props) {
                     {section.items.map((item, idx) => {
                       return (
                         <div key={idx}>
-                          <NavDropdown.Item key={idx} href={item.path}>{item.title} - {idx}</NavDropdown.Item>
+                          <NavDropdown.Item key={idx} href={item.title}>{item.title}</NavDropdown.Item>
                         </div>
                       )
                     })

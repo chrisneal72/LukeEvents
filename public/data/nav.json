@@ -11,6 +11,38 @@
     "type": "dropdown",
     "items": [
       {
+        "title": "ClubFiveSix",
+        "type": "page",
+        "path": "ClubFiveSix"
+      },
+      {
+        "title": "TheBlitzLounge",
+        "type": "page",
+        "path": "TheBlitzLounge"
+      },
+      {
+        "title": "TBoltCafe",
+        "type": "page",
+        "path": "TBoltCafe"
+      },
+      {
+        "title": "TheGrill",
+        "type": "page",
+        "path": ""
+      },
+      {
+        "title": "Hensman",
+        "type": "page",
+        "path": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Food",
+    "type": "dropdown",
+    "items": [
+      {
         "title": "Club Five Six",
         "type": "page",
         "path": "ClubFiveSix"
@@ -209,49 +241,57 @@
     "path": "/sponsorship-advertising/"
   },
   {
-    "id": 7,
+    "id": 9,
     "category": "Get Connected",
     "type": "dropdown",
     "items": [
       {
         "title": "Calendar",
         "type": "page",
-        "path": ""
+        "path": "",
+        "external": 0
       },
       {
         "title": "Email",
         "type": "page",
-        "path": ""
+        "path": "",
+        "external": 0
       },
       {
         "title": "Facebook",
         "type": "link",
-        "path": ""
+        "path": "http://facebook.com/lukeevents",
+        "external": 1
       },
       {
         "title": "Instagram",
         "type": "link",
-        "path": ""
+        "path": "https://www.instagram.com/luke_events/",
+        "external": 1
       },
       {
         "title": "Text",
         "type": "page",
-        "path": ""
+        "path": "",
+        "external": 0
       },
       {
         "title": "The Bolt Magazine",
         "type": "page",
-        "path": ""
+        "path": "",
+        "external": 0
       },
       {
         "title": "Twitter",
         "type": "link",
-        "path": ""
+        "path": "https://twitter.com/luke_events/",
+        "external": 1
       },
       {
         "title": "YouTube",
         "type": "link",
-        "path": ""
+        "path": "https://www.youtube.com/channel/UClmNrBJZf1cvyIUFGP8NHTw/",
+        "external": 1
       }
     ]
   }

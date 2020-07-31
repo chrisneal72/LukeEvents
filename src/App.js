@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Navigation from './Navigation/Navigation';
@@ -9,20 +9,13 @@ import TheBlitzLounge from "./Pages/Food/TheBlitzLounge";
 import TBoltCafe from "./Pages/Food/TBoltCafe";
 import TheGrill from "./Pages/Food/TheGrill";
 import Hensman from "./Pages/Food/Hensman";
-import data from './nav.json';
-
-
+import Template from "./Template/Template";
 
 function App() {
 
-  const [navData, setNavData] = useState(data);
-
   return (
     <div className="App">
-      <Navigation
-        navData={navData}
-        setNavData={setNavData}
-      />
+      <Navigation />
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
@@ -31,6 +24,7 @@ function App() {
           <Route exact path="/TBoltCafe" component={TBoltCafe} />
           <Route exact path="/TheGrill" component={TheGrill} />
           <Route exact path="/Hensman" component={Hensman} />
+          <Route exact path="/:pageId" component={Template} />
           <Route component={Home} />
         </Switch>
       </Router>

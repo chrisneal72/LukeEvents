@@ -1,0 +1,29 @@
+{
+  "topImage": "images/DFAC-800.jpg",
+  "mainImage": "images/Club56-sq.jpg",
+  "mapImage": "images/Club56Map.jpg",
+  "facebook": "Facebook.com/ClubFiveSix",
+  "bodyCopy": "<b>Club Five Six</b> is your go to spot for dining, entertainment, and special events on Luke Air Force Base!<br /><br /><b>Want to have fun?</b><br />Club Five Six hosts theme parties, satellite-broadcast sporting events, live bands, DJs, bingo nights, karaoke nights, and more. Check the calendar for this months events!<br /><br /><b>Planning an event?</b><br />Club Five Six is your place for great special event planning.  Rooms available at the club include the main lounge, Barcelona room, large ballroom (with a 375 person capacity) and outdoor patio spaces.<br />",
+  "facInfo": [
+    {
+      "title": "Club Five Six",
+      "lines": [{ "line": "623-856-6446" }, { "line": "Bldg. 161" }]
+    },
+    {
+      "title": "Cashier",
+      "lines": [{ "line": "Monday – Friday" }, { "line": "8:30am-1pm" }]
+    },
+    {
+      "title": "Lunch",
+      "lines": [{ "line": "Monday – Friday" }, { "line": "11am-1:30pm" }]
+    },
+    {
+      "title": "Harlow’s Lounge",
+      "lines": [{ "line": "Wednesday" }, { "line": "4-8pm" }]
+    },
+    {
+      "title": "Wingman Wednesday",
+      "lines": [{ "line": "4:30pm-8pm" }]
+    }
+  ]
+}
