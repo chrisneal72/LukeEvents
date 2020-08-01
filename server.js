@@ -22,8 +22,8 @@ app.use(express.static("client/build"));
 
 // This will eventually be the React entrance route
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-  // res.sendFile(path.resolve(__dirname, "client/build/index.html"));
+  // res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  res.sendFile(path.resolve(__dirname, "client/build/index.html"));
 });
 
 connectToDatabase();
