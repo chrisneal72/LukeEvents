@@ -1,0 +1,39 @@
+{
+  "template": "Style1",
+  "title": "Arts & Crafts",
+  "topImage": "",
+  "mainImage": "images/ac.png",
+  "mapImage": "",
+  "facebook": "Facebook.com/LukeArtsCrafts",
+  "bodyCopy": "<b>The Arts & Crafts Center</b> houses the frame, engraving, and wood shop. Each shop is staffed with experienced personnel and maintains quality equipment, tools, and supplies. Looking for the perfect going away gift? Stop by the retail shop for custom gifts.",
+  "facInfo": [
+    {
+      "title": "Arts & Crafts",
+      "lines": [{ "line": "Bldg. 247" }, { "line": "623-856-6502" }]
+    },
+    {
+      "title": "Engraving",
+      "lines": [
+        { "line": "623-856-2797" },
+        { "line": "Monday-Friday" },
+        { "line": "9am-4pm" }
+      ]
+    },
+    {
+      "title": "Frame Shop",
+      "lines": [
+        { "line": "623-856-2798" },
+        { "line": "Monday-Friday" },
+        { "line": "9am-5 pm" }
+      ]
+    },
+    {
+      "title": "Wood Shop",
+      "lines": [
+        { "line": "623-856-6566" },
+        { "line": "Friday – Sunday" },
+        { "line": "9am-4pm" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "template": "Style1",
+  "title": "Bryant Fitness Center",
+  "topImage": "images/bfc.png",
+  "mainImage": "",
+  "mapImage": "",
+  "facebook": "Facebook.com/lukefitnesscenter/",
+  "bodyCopy": "<b>The Bryant Fitness Center</b> is here to help you meet your fitness goals! On top of the sports and special events, the Bryant Fitness Center offers state of the art fitness and cardio equipment. <br /><br /><b>Cardio rooms</b> offer a multitude of options including treadmills, upright and recumbent bikes, stair steppers and elliptical machines. <br /><br /><b>Free weight rooms</b> give patrons plenty of choices for their daily strength workouts.<br /><b>Monthly 5K’s</b> test your cardio and give you a chance to run against the best. Please note, monthly 5K’s are held in various location to be announced every month.<br />",
+  "facInfo": [
+    {
+      "title": "Fitness Center",
+      "lines": [
+        { "line": "Bldg.820" },
+        { "line": "623-856-6241" },
+        { "line": "Mon.- Fri. • 5am-9pm" },
+        { "line": "Sat. & Sun. • 8am-6pm" },
+        { "line": "Holidays & Down Days • 9am-6pm" }
+      ]
+    },
+    {
+      "title": "Warrior PT Center",
+      "lines": [
+        { "line": "Bldg. 80820" },
+        { "line": "623-856-2291" },
+        { "line": "Mon. – Fri. 5am-9pm" },
+        { "line": "Sat. & Sun.  8am-6pm" },
+        { "line": "Holidays & Down Days  9am-6pm" },
+        { "line": "Effective Immediately" },
+        { "line": "PT Tent Closed until July 7, 2020" }
+      ]
+    },
+    {
+      "title": "Fitness Center Annex",
+      "lines": [
+        { "line": "Bldg. 1137" },
+        { "line": "623-856-8299" },
+        { "line": "Mon. – Fri. 6am-6pm" },
+        { "line": "Weekends, Holidays & Down Days Closed" }
+      ]
+    },
+    {
+      "title": "Smoothie Bar",
+      "lines": [
+        { "line": "Bldg. 820" },
+        { "line": "Mon.-Fri. 6am-6pm" },
+        { "line": "TEMPORARILY CLOSED" }
+      ]
+    }
+  ]
+}

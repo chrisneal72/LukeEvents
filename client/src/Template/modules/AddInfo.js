@@ -9,7 +9,7 @@ const AddInfo = ({ props }) => {
     <>
       <Row className="top-row">
         <Col xs={12} sm={9} className="align-left"><h4>{props.title}</h4></Col>
-        {props.button.title && <Col xs={12} sm={3}><Button href={props.button.path} rel="noopener noreferrer" target="_blank">{props.button.title}</Button></Col>}
+        {props.button && <Col xs={12} sm={3}><Button href={props.button.path} rel="noopener noreferrer" target="_blank">{props.button.title}</Button></Col>}
       </Row>
       <Row xs={1} sm={2}>
         {props.info.map((item, sIdx) => {

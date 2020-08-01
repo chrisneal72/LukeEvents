@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const PageSchema = new mongoose.Schema(
+const pageSchema = new mongoose.Schema(
   {
     template: {
       type: String,
@@ -47,8 +47,13 @@ const PageSchema = new mongoose.Schema(
     ]
   },
   {
-    timestamps: true
+    toJSON: {
+      // include any virtual properties when data is requested
+      virtuals: true
+    }
   }
 );
 
-module.exports = mongoose.model("Page", PageSchema);
+const Page = mongoose.model("Page", pageSchema);
+
+module.exports = Page;

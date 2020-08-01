@@ -13,6 +13,7 @@ import { faEnvelope as envelope, faMobileAlt as mobilealt, faBookOpen as bookope
 library.add(fab, envelope, mobilealt, bookopen);
 
 function Navigation() {
+
   const [navData, setNavData] = useState([]);
 
   useEffect(() => {

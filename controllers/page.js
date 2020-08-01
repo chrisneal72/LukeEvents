@@ -1,4 +1,4 @@
-const Page = require("../models/Page");
+const Page = require("../models/page");
 
 // @desc    Get single page
 // @route   GET /api/page/:id
