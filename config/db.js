@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connectToDatabase = async () => {
   const connection = await mongoose.connect(
-    process.env.MONGODB_URI || "mongodb://localhost/lukeevents",
+    process.env.MONGODB_CLOUD_URI || "mongodb://localhost/lukeevents",
     {
       useCreateIndex: true,
       useNewUrlParser: true,

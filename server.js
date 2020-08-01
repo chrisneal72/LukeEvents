@@ -5,6 +5,7 @@ const path = require("path");
 const PORT = process.env.PORT || 3001;
 const connectToDatabase = require("./config/db");
 const page = require("./routes/page");
+
 // const users = require("./routes/users");
 // const protected = require("./routes/protected");
 
