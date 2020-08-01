@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ModalImage from "react-modal-image";
-import { TopImage, MainImage, MapImage, FacInfo, FacebookLink, BodyCopy, AddInfo } from './modules';
+import { TopImage, MainImage, MapImage, FacInfo, FacebookLink, BodyCopy, AddImages, AddInfo } from './modules';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './template.css';
 import SmallIcons from "../SmallIcons/SmallIcons";
@@ -31,13 +30,8 @@ const Style1 = ({ currentPage }) => {
           {currentPage.facInfo && <FacInfo info={currentPage.facInfo} />}
         </Col>
       </Row>
-      <Row>
-        <Col>
-          <ModalImage
-            small="images/TBoltCafe-sq-sm.jpg"
-            large="images/TBoltCafe-sq.jpg"
-          />
-        </Col>
+      <Row xs={3} sm={4} md={5} lg={6}>
+        {currentPage.addImages && <AddImages images={currentPage.addImages} />}
       </Row>
     </Container>
   );

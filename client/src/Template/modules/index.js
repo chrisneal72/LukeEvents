@@ -1,4 +1,5 @@
 export { default as AddInfo } from './AddInfo';
+export { default as AddImages } from './AddImages';
 export { default as BodyCopy } from './BodyCopy';
 export { default as FacebookLink } from './FacebookLink';
 export { default as FacInfo } from './FacInfo';

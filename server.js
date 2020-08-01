@@ -3,22 +3,22 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const PORT = process.env.PORT || 3001;
-// const connectToDatabase = require("./config/db");
-// const events = require("./routes/events");
+const connectToDatabase = require("./config/db");
+const page = require("./routes/page");
 // const users = require("./routes/users");
 // const protected = require("./routes/protected");
 
 // Middleware
-// app.use(express.json());
+app.use(express.json());
 
 // Router
-// app.use("/api/events", events);
+app.use("/api/page", page);
 // app.use("/api/users", users);
 // app.use("/", protected);
 
 // Static directory to be served
-app.use(express.static("client/build"));
-// app.use(express.static("client/public"));
+//app.use(express.static("client/build"));
+app.use(express.static("client/public"));
 
 // This will eventually be the React entrance route
 app.get("*", (req, res) => {
@@ -26,7 +26,7 @@ app.get("*", (req, res) => {
   // res.sendFile(path.resolve(__dirname, "client/build/index.html"));
 });
 
-// connectToDatabase();
+connectToDatabase();
 
 app.listen(PORT, () =>
   console.log(`Express server listening on port ${PORT}.`)

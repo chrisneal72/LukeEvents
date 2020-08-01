@@ -80,5 +80,12 @@
         "lines": [{ "line": "2% off Disney Military Salute Tickets" }]
       }
     ]
-  }
+  },
+  "addImages": [
+    {
+      "smPath": "images/TBoltCafe-sq-sm.jpg",
+      "lgPath": "images/TBoltCafe-sq.jpg",
+      "altText": ""
+    }
+  ]
 }

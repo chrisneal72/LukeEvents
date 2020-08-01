@@ -39,14 +39,9 @@ h3 {
 }
 
 .main-image {
-  max-width: 300px;
+  width: 50%;
   margin: 15px;
   float: left;
-}
-
-.main-image-div {
-  display: block;
-  width: 50%;
 }
 
 .top-image {
@@ -55,9 +50,13 @@ h3 {
   width: auto;
 }
 
-@media (max-width:767px) {
+.modal-images {
+  margin: 10px 0px 10px 0px;
+}
+
+/* @media (max-width:767px) {
   .image-left {
     max-width: 150;
     margin: 10px;
   }
-}
+} */
