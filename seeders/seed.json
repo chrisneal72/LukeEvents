@@ -1,4 +1,10 @@
-{
+({
+  "_id": {
+    "$oid": ""
+  },
+  "saleDate": {
+    "$date": ""
+  },
   "template": "Style1",
   "title": "Airman and Family Readiness",
   "topImage": "images/aafr.jpg",
@@ -9,18 +15,35 @@
   "facInfo": [
     {
       "title": "Airman & Family Readiness Center",
-      "lines": [{ "line": "623-856-6550" }, { "line": "Bldg. 1113" }]
+      "lines": [
+        {
+          "line": "623-856-6550"
+        },
+        {
+          "line": "Bldg. 1113"
+        }
+      ]
     },
     {
       "title": "Monday – Friday",
       "lines": [
-        { "line": "7:30am-4:30pm" },
-        { "line": "Closed every third Thursday" }
+        {
+          "line": "7:30am-4:30pm"
+        },
+        {
+          "line": "Closed every third Thursday"
+        }
       ]
     }
   ]
 },
 {
+  "_id": {
+    "$oid": ""
+  },
+  "saleDate": {
+    "$date": ""
+  },
   "template": "Style1",
   "title": "Hensman Dining Facility",
   "topImage": "images/DFAC-800.jpg",
@@ -31,23 +54,49 @@
   "facInfo": [
     {
       "title": "Hensman Dining Facility",
-      "lines": [{ "line": "623-856-6396" }, { "line": "Bldg. 545" }]
+      "lines": [
+        {
+          "line": "623-856-6396"
+        },
+        {
+          "line": "Bldg. 545"
+        }
+      ]
     },
     {
       "title": "Monday – Friday",
       "lines": [
-        { "line": "Breakfast ·  6-8am" },
-        { "line": "Lunch ·  11am-1pm" },
-        { "line": "Dinner · 4-6pm" }
+        {
+          "line": "Breakfast ·  6-8am"
+        },
+        {
+          "line": "Lunch ·  11am-1pm"
+        },
+        {
+          "line": "Dinner · 4-6pm"
+        }
       ]
     },
     {
       "title": "Weekends & Holidays",
-      "lines": [{ "line": "Brunch · 7am-1pm" }, { "line": "Supper · 4-6pm" }]
+      "lines": [
+        {
+          "line": "Brunch · 7am-1pm"
+        },
+        {
+          "line": "Supper · 4-6pm"
+        }
+      ]
     }
   ]
 },
 {
+  "_id": {
+    "$oid": ""
+  },
+  "saleDate": {
+    "$date": ""
+  },
   "template": "Style1",
   "title": "T-Bolt Cafe",
   "topImage": "",
@@ -58,15 +107,36 @@
   "facInfo": [
     {
       "title": "T-Bolt Café Flight Kitchen",
-      "lines": [{ "line": "623-856-6420" }, { "line": "Bldg. 954" }]
+      "lines": [
+        {
+          "line": "623-856-6420"
+        },
+        {
+          "line": "Bldg. 954"
+        }
+      ]
     },
     {
       "title": "Monday – Friday",
-      "lines": [{ "line": "Lunch · 11am-1pm" }, { "line": "Dinner · 5-7pm" }]
+      "lines": [
+        {
+          "line": "Lunch · 11am-1pm"
+        },
+        {
+          "line": "Dinner · 5-7pm"
+        }
+      ]
     },
     {
       "title": "Midnight Meal",
-      "lines": [{ "line": "Sunday – Thursday" }, { "line": "11: 30pm - 1am" }]
+      "lines": [
+        {
+          "line": "Sunday – Thursday"
+        },
+        {
+          "line": "11: 30pm - 1am"
+        }
+      ]
     }
   ],
   "addInfo": {
@@ -81,6 +151,12 @@
   }
 },
 {
+  "_id": {
+    "$oid": ""
+  },
+  "saleDate": {
+    "$date": ""
+  },
   "template": "Style1",
   "title": "The Blitz Lounge",
   "topImage": "images/129A1280-800px.jpg",
@@ -91,11 +167,25 @@
   "facInfo": [
     {
       "title": "The Blitz Lounge",
-      "lines": [{ "line": "623-856-7152" }, { "line": "Bldg. 700" }]
+      "lines": [
+        {
+          "line": "623-856-7152"
+        },
+        {
+          "line": "Bldg. 700"
+        }
+      ]
     },
     {
       "title": "Monday – Friday",
-      "lines": [{ "line": "Breakfast" }, { "line": "6:30-9am" }]
+      "lines": [
+        {
+          "line": "Breakfast"
+        },
+        {
+          "line": "6:30-9am"
+        }
+      ]
     }
   ],
   "addInfo": {
@@ -130,6 +220,12 @@
   }
 },
 {
+  "_id": {
+    "$oid": ""
+  },
+  "saleDate": {
+    "$date": ""
+  },
   "template": "Style1",
   "title": "The Grill Snack Bar",
   "topImage": "",
@@ -141,18 +237,32 @@
     {
       "title": "Falcon Dunes Grill",
       "lines": [
-        { "line": "623-856-0004" },
-        { "line": "15100 W. Northern Avenue" },
-        { "line": "Waddell, Arizona, 85355" }
+        {
+          "line": "623-856-0004"
+        },
+        {
+          "line": "15100 W. Northern Avenue"
+        },
+        {
+          "line": "Waddell, Arizona, 85355"
+        }
       ]
     },
     {
       "title": "Summer Hours:",
       "lines": [
-        { "line": "Sunday-Friday" },
-        { "line": "5:30am – 1:30pm" },
-        { "line": "Saturday" },
-        { "line": "5:30am-3pm" }
+        {
+          "line": "Sunday-Friday"
+        },
+        {
+          "line": "5:30am – 1:30pm"
+        },
+        {
+          "line": "Saturday"
+        },
+        {
+          "line": "5:30am-3pm"
+        }
       ]
     }
   ],
@@ -168,6 +278,12 @@
   }
 },
 {
+  "_id": {
+    "$oid": ""
+  },
+  "saleDate": {
+    "$date": ""
+  },
   "template": "Style1",
   "title": "Youth Programs",
   "topImage": "",
@@ -178,26 +294,52 @@
   "facInfo": [
     {
       "title": "Youth Programs",
-      "lines": [{ "line": "Bldg. 1143" }, { "line": "623-856-7470" }]
+      "lines": [
+        {
+          "line": "Bldg. 1143"
+        },
+        {
+          "line": "623-856-7470"
+        }
+      ]
     },
     {
       "title": "Administration",
-      "lines": [{ "line": "Monday-Friday" }, { "line": "6am-5:30pm" }]
+      "lines": [
+        {
+          "line": "Monday-Friday"
+        },
+        {
+          "line": "6am-5:30pm"
+        }
+      ]
     },
     {
       "title": "Summer Hours",
       "lines": [
-        { "line": "Mon-Fri" },
-        { "line": "Youth and Teen Programs- 8:00am – 4:00pm" },
-        { "line": "School-Age Care- 7:00-4:00pm" }
+        {
+          "line": "Mon-Fri"
+        },
+        {
+          "line": "Youth and Teen Programs- 8:00am – 4:00pm"
+        },
+        {
+          "line": "School-Age Care- 7:00-4:00pm"
+        }
       ]
     },
     {
       "title": "School Year Hours",
       "lines": [
-        { "line": "Mon-Fri" },
-        { "line": "Youth and Teen Programs- 7:00am – 4:00pm" },
-        { "line": "School Age Care- 7:00am-4:00pm" }
+        {
+          "line": "Mon-Fri"
+        },
+        {
+          "line": "Youth and Teen Programs- 7:00am – 4:00pm"
+        },
+        {
+          "line": "School Age Care- 7:00am-4:00pm"
+        }
       ]
     }
   ],
@@ -223,6 +365,12 @@
   }
 },
 {
+  "_id": {
+    "$oid": ""
+  },
+  "saleDate": {
+    "$date": ""
+  },
   "template": "Style1",
   "title": "Arts & Crafts",
   "topImage": "",
@@ -233,35 +381,66 @@
   "facInfo": [
     {
       "title": "Arts & Crafts",
-      "lines": [{ "line": "Bldg. 247" }, { "line": "623-856-6502" }]
+      "lines": [
+        {
+          "line": "Bldg. 247"
+        },
+        {
+          "line": "623-856-6502"
+        }
+      ]
     },
     {
       "title": "Engraving",
       "lines": [
-        { "line": "623-856-2797" },
-        { "line": "Monday-Friday" },
-        { "line": "9am-4pm" }
+        {
+          "line": "623-856-2797"
+        },
+        {
+          "line": "Monday-Friday"
+        },
+        {
+          "line": "9am-4pm"
+        }
       ]
     },
     {
       "title": "Frame Shop",
       "lines": [
-        { "line": "623-856-2798" },
-        { "line": "Monday-Friday" },
-        { "line": "9am-5 pm" }
+        {
+          "line": "623-856-2798"
+        },
+        {
+          "line": "Monday-Friday"
+        },
+        {
+          "line": "9am-5 pm"
+        }
       ]
     },
     {
       "title": "Wood Shop",
       "lines": [
-        { "line": "623-856-6566" },
-        { "line": "Friday – Sunday" },
-        { "line": "9am-4pm" }
+        {
+          "line": "623-856-6566"
+        },
+        {
+          "line": "Friday – Sunday"
+        },
+        {
+          "line": "9am-4pm"
+        }
       ]
     }
   ]
 },
 {
+  "_id": {
+    "$oid": ""
+  },
+  "saleDate": {
+    "$date": ""
+  },
   "template": "Style1",
   "title": "Bryant Fitness Center",
   "topImage": "images/bfc.png",
@@ -273,45 +452,89 @@
     {
       "title": "Fitness Center",
       "lines": [
-        { "line": "Bldg.820" },
-        { "line": "623-856-6241" },
-        { "line": "Mon.- Fri. • 5am-9pm" },
-        { "line": "Sat. & Sun. • 8am-6pm" },
-        { "line": "Holidays & Down Days • 9am-6pm" }
+        {
+          "line": "Bldg.820"
+        },
+        {
+          "line": "623-856-6241"
+        },
+        {
+          "line": "Mon.- Fri. • 5am-9pm"
+        },
+        {
+          "line": "Sat. & Sun. • 8am-6pm"
+        },
+        {
+          "line": "Holidays & Down Days • 9am-6pm"
+        }
       ]
     },
     {
       "title": "Warrior PT Center",
       "lines": [
-        { "line": "Bldg. 80820" },
-        { "line": "623-856-2291" },
-        { "line": "Mon. – Fri. 5am-9pm" },
-        { "line": "Sat. & Sun.  8am-6pm" },
-        { "line": "Holidays & Down Days  9am-6pm" },
-        { "line": "Effective Immediately" },
-        { "line": "PT Tent Closed until July 7, 2020" }
+        {
+          "line": "Bldg. 80820"
+        },
+        {
+          "line": "623-856-2291"
+        },
+        {
+          "line": "Mon. – Fri. 5am-9pm"
+        },
+        {
+          "line": "Sat. & Sun.  8am-6pm"
+        },
+        {
+          "line": "Holidays & Down Days  9am-6pm"
+        },
+        {
+          "line": "Effective Immediately"
+        },
+        {
+          "line": "PT Tent Closed until July 7, 2020"
+        }
       ]
     },
     {
       "title": "Fitness Center Annex",
       "lines": [
-        { "line": "Bldg. 1137" },
-        { "line": "623-856-8299" },
-        { "line": "Mon. – Fri. 6am-6pm" },
-        { "line": "Weekends, Holidays & Down Days Closed" }
+        {
+          "line": "Bldg. 1137"
+        },
+        {
+          "line": "623-856-8299"
+        },
+        {
+          "line": "Mon. – Fri. 6am-6pm"
+        },
+        {
+          "line": "Weekends, Holidays & Down Days Closed"
+        }
       ]
     },
     {
       "title": "Smoothie Bar",
       "lines": [
-        { "line": "Bldg. 820" },
-        { "line": "Mon.-Fri. 6am-6pm" },
-        { "line": "TEMPORARILY CLOSED" }
+        {
+          "line": "Bldg. 820"
+        },
+        {
+          "line": "Mon.-Fri. 6am-6pm"
+        },
+        {
+          "line": "TEMPORARILY CLOSED"
+        }
       ]
     }
   ]
 },
 {
+  "_id": {
+    "$oid": ""
+  },
+  "saleDate": {
+    "$date": ""
+  },
   "template": "Style1",
   "title": "Child Development Center",
   "topImage": "",
@@ -322,15 +545,32 @@
   "facInfo": [
     {
       "title": "Child Development Center",
-      "lines": [{ "line": "623-856-6338" }, { "line": "Bldg. 1119" }]
+      "lines": [
+        {
+          "line": "623-856-6338"
+        },
+        {
+          "line": "Bldg. 1119"
+        }
+      ]
     },
     {
       "title": "Monday – Friday",
-      "lines": [{ "line": "7am-4pm" }]
+      "lines": [
+        {
+          "line": "7am-4pm"
+        }
+      ]
     }
   ]
 },
 {
+  "_id": {
+    "$oid": ""
+  },
+  "saleDate": {
+    "$date": ""
+  },
   "template": "Style1",
   "title": "Family Child Care Center",
   "topImage": "",
@@ -341,15 +581,32 @@
   "facInfo": [
     {
       "title": "Family Child Care Center",
-      "lines": [{ "line": "623-856-2684" }, { "line": "Bldg. 1140" }]
+      "lines": [
+        {
+          "line": "623-856-2684"
+        },
+        {
+          "line": "Bldg. 1140"
+        }
+      ]
     },
     {
       "title": "Monday-Friday",
-      "lines": [{ "line": "9am-5pm" }]
+      "lines": [
+        {
+          "line": "9am-5pm"
+        }
+      ]
     }
   ]
 },
 {
+  "_id": {
+    "$oid": ""
+  },
+  "saleDate": {
+    "$date": ""
+  },
   "template": "Style1",
   "title": "Club Five Six",
   "topImage": "",
@@ -360,23 +617,55 @@
   "facInfo": [
     {
       "title": "Club Five Six",
-      "lines": [{ "line": "623-856-6446" }, { "line": "Bldg. 161" }]
+      "lines": [
+        {
+          "line": "623-856-6446"
+        },
+        {
+          "line": "Bldg. 161"
+        }
+      ]
     },
     {
       "title": "Cashier",
-      "lines": [{ "line": "Monday – Friday" }, { "line": "8:30am-1pm" }]
+      "lines": [
+        {
+          "line": "Monday – Friday"
+        },
+        {
+          "line": "8:30am-1pm"
+        }
+      ]
     },
     {
       "title": "Lunch",
-      "lines": [{ "line": "Monday – Friday" }, { "line": "11am-1:30pm" }]
+      "lines": [
+        {
+          "line": "Monday – Friday"
+        },
+        {
+          "line": "11am-1:30pm"
+        }
+      ]
     },
     {
       "title": "Harlow’s Lounge",
-      "lines": [{ "line": "Wednesday" }, { "line": "4-8pm" }]
+      "lines": [
+        {
+          "line": "Wednesday"
+        },
+        {
+          "line": "4-8pm"
+        }
+      ]
     },
     {
       "title": "Wingman Wednesday",
-      "lines": [{ "line": "4:30pm-8pm" }]
+      "lines": [
+        {
+          "line": "4:30pm-8pm"
+        }
+      ]
     }
   ],
   "addInfo": {
@@ -391,44 +680,77 @@
         "title": "Club Five Six",
         "path": "",
         "lines": [
-          { "line": "$2 off lunch and dinner" },
-          { "line": "$2 off unit functions" },
-          { "line": "10% off catering" },
-          { "line": "$10 off B-Day meal" },
-          { "line": "Member event pricing" }
+          {
+            "line": "$2 off lunch and dinner"
+          },
+          {
+            "line": "$2 off unit functions"
+          },
+          {
+            "line": "10% off catering"
+          },
+          {
+            "line": "$10 off B-Day meal"
+          },
+          {
+            "line": "Member event pricing"
+          }
         ]
       },
       {
         "type": "ulList",
         "title": "Falcon Dunes",
         "lines": [
-          { "line": "10% off green fees" },
-          { "line": "10% off cart rental" }
+          {
+            "line": "10% off green fees"
+          },
+          {
+            "line": "10% off cart rental"
+          }
         ]
       },
       {
         "type": "ulList",
         "title": "Fort Tuthill",
         "path": "",
-        "lines": [{ "line": "$5 off lodging" }, { "line": "$2 off RV sites" }]
+        "lines": [
+          {
+            "line": "$5 off lodging"
+          },
+          {
+            "line": "$2 off RV sites"
+          }
+        ]
       },
       {
         "type": "ulList",
         "title": "Auto Hobby",
         "path": "",
-        "lines": [{ "line": "10% off stall fees" }]
+        "lines": [
+          {
+            "line": "10% off stall fees"
+          }
+        ]
       },
       {
         "type": "ulList",
         "title": "Outdoor Recreation",
         "path": "",
-        "lines": [{ "line": "10% off rentals" }]
+        "lines": [
+          {
+            "line": "10% off rentals"
+          }
+        ]
       },
       {
         "type": "ulList",
         "title": "Information, Tickets, and Travel",
         "path": "",
-        "lines": [{ "line": "2% off Disney Military Salute Tickets" }]
+        "lines": [
+          {
+            "line": "2% off Disney Military Salute Tickets"
+          }
+        ]
       }
     ]
   },

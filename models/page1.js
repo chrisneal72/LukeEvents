@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+
 const pageSchema = new mongoose.Schema(
   {
     template: {
