@@ -1,4 +1,4 @@
-![this.Event Logo](/header.jpg)
+![LukeEvents Head](/screenshots/header.jpg)
 
 # LukeEvents.com
 
