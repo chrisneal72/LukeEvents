@@ -9,7 +9,6 @@ const connectToDatabase = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useFindAndModify: false,
-      host: proxy
     }
   );
 
