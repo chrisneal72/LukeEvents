@@ -4,11 +4,6 @@ import './App.css';
 import Navigation from './Navigation/Navigation';
 import Footer from './Footer/Footer';
 import Home from "./Home/Home";
-import ClubFiveSix from "./Pages/Food/ClubFiveSix";
-import TheBlitzLounge from "./Pages/Food/TheBlitzLounge";
-import TBoltCafe from "./Pages/Food/TBoltCafe";
-import TheGrill from "./Pages/Food/TheGrill";
-import Hensman from "./Pages/Food/Hensman";
 import Base from "./Template/Base";
 
 function App() {
@@ -18,15 +13,9 @@ function App() {
         <Navigation />
         <Switch>
           <Route exact path="/:pageId" component={Base} />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/ClubFiveSix" component={ClubFiveSix} />
-          <Route exact path="/TheBlitzLounge" component={TheBlitzLounge} />
-          <Route exact path="/TBoltCafe" component={TBoltCafe} />
-          <Route exact path="/TheGrill" component={TheGrill} />
-          <Route exact path="/Hensman" component={Hensman} />
           <Route component={Home} />
         </Switch>
-        <Footer></Footer>
+        <Footer />
       </Router>
     </div>
   );

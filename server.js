@@ -18,8 +18,8 @@ app.use("/api/page", page);
 // app.use("/", protected);
 
 // Static directory to be served
-app.use(express.static("client/build"));
-//app.use(express.static("client/public"));
+//app.use(express.static("client/build"));
+app.use(express.static("client/public"));
 
 // This will eventually be the React entrance route
 app.get("*", (req, res) => {

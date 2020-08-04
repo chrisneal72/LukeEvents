@@ -36,7 +36,7 @@ Phase 1 of this project is to have the core template finished and some of the pa
 1. Clone the project:
 
 ```
-git clone https://github.com/chrisneal72/LukeEvents.gitt
+git clone https://github.com/chrisneal72/LukeEvents.git
 ```
 
 2. Navigate into the project folder and install the dependencies:
