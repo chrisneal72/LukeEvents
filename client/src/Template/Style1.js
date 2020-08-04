@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FacebookProvider, Page } from 'react-facebook';
+//import { FacebookProvider, Page } from 'react-facebook';
 import { Container, Row, Col } from "react-bootstrap";
 import { TopImage, MainImage, MapImage, FacInfo, FacebookLink, BodyCopy, AddImages, AddInfo } from './modules';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -30,9 +30,9 @@ const Style1 = ({ currentPage }) => {
         <Col xs={12} sm={4}>
           {currentPage.mapImage && <MapImage path={currentPage.mapImage} />}
           {currentPage.facInfo && <FacInfo info={currentPage.facInfo} />}
-          {currentPage.facebook && <FacebookProvider appId={process.env.REACT_APP_FACEBOOK_APP_ID}>
+          {/* {currentPage.facebook && <FacebookProvider appId={process.env.REACT_APP_FACEBOOK_APP_ID}>
             <Page href={"https://www." + currentPage.facebook} tabs="events" />
-          </FacebookProvider>}
+          </FacebookProvider>} */}
         </Col>
       </Row>
       <Row xs={3} sm={4} md={5} lg={6}>
