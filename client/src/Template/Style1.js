@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './template.css';
 import SmallIcons from "../SmallIcons/SmallIcons";
 
+
 const Style1 = ({ currentPage }) => {
   return (
     <Container className="body-container">
