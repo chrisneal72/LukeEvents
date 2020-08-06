@@ -11,7 +11,7 @@ const FacInfo = (props) => {
     <>
       {props.info.map((item, sIdx) => {
         return (
-          <Row key={sIdx} xs={9} className="right-col-rows row-ul">
+          <Row key={sIdx} className="right-col-rows row-ul">
             <Col>
               {item.title ? <h5>{item.title}</h5> : ''}
               {item.lines.map((line, idx) => {

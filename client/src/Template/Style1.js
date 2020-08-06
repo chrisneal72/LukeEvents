@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { FacebookProvider, Page } from 'react-facebook';
 import { Container, Row, Col } from "react-bootstrap";
-import { TopImage, MainImage, MapImage, FacInfo, FacebookLink, BodyCopy, AddImages, AddInfo } from './modules';
+import { TopImage, MainImage, MapImage, FacInfo, BodyCopy, AddImages, AddInfo } from './modules';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './template.css';
 import SmallIcons from "../SmallIcons/SmallIcons";
@@ -14,7 +14,6 @@ const Style1 = ({ currentPage }) => {
         <Col xs={12} sm={6} className="align-left"><h2>{currentPage.title}</h2></Col>
         <Col xs={12} sm={6}><SmallIcons></SmallIcons></Col>
       </Row>
-      {/* {currentPage.facebook && <FacebookLink path={currentPage.facebook} />} */}
       <Row>
         <Col xs={12} sm={8} className="align-left">
           <Row>
@@ -30,7 +29,7 @@ const Style1 = ({ currentPage }) => {
             <AddImages images={currentPage.addImages} />
           </Row>}
         </Col>
-        <Col xs={12} sm={4}>
+        <Col xs={12} sm={4} md="auto">
           {currentPage.mapImage && <MapImage path={currentPage.mapImage} />}
           {currentPage.facInfo && <FacInfo info={currentPage.facInfo} />}
           {currentPage.facebook && <FacebookProvider appId={process.env.REACT_APP_FACEBOOK_APP_ID}>

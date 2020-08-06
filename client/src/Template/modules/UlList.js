@@ -6,7 +6,7 @@ import '../template.css';
 const UlList = ({ props }) => {
   return (
     <Col className="top-margin">
-      <h5>{props.title}</h5>
+      <h4>{props.title}</h4>
       <ul>
         {props.lines.map((line, sIdx) => {
           return (

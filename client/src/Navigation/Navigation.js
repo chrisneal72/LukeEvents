@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Navigation.css';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 // import Form from 'react-bootstrap/Form';
@@ -10,15 +9,15 @@ import { Link } from 'react-router-dom'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope as envelope, faMobileAlt as mobilealt, faBookOpen as bookopen } from '@fortawesome/free-solid-svg-icons'
+import './Navigation.css';
 library.add(fab, envelope, mobilealt, bookopen);
 
 function Navigation() {
-  console.log("NAV HIT")
   const [navData, setNavData] = useState([]);
 
   useEffect(() => {
     axios
-      .get(`./data/nav.json`)
+      .get(`/data/nav.json`)
       .then(response => {
         setNavData(response.data);
       })
@@ -29,7 +28,7 @@ function Navigation() {
 
   return (
     <div>
-      <Navbar className="nav-color" variant="dark" expand="lg">
+      <Navbar variant="dark" collapseOnSelect="true" expand="lg" className="nav-color">
         <Navbar.Brand href="/">LukeEvents.com</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -37,12 +36,12 @@ function Navigation() {
             {navData.map((section, sIdx) => {
               return (
                 <div key={sIdx}>
-                  {section.type === 'link' ? <Nav.Link as={Link} to={section.path} key={section.id}>{section.category}</Nav.Link> : ''}
-                  {section.type === 'dropdown' ? <NavDropdown title={section.category} key={section.id} id='basic-nav-dropdown'>
+                  {section.type === 'link' ? <Nav.Link as={Link} id={sIdx} to={section.path} key={section.id}>{section.category}</Nav.Link> : ''}
+                  {section.type === 'dropdown' ? <NavDropdown id={sIdx} title={section.category} key={section.id} className='basic-nav-dropdown'>
                     {section.items.map((item, idx) => {
                       return (
                         <div key={idx}>
-                          <NavDropdown.Item key={idx} as={Link} to={item.title}>{item.title}</NavDropdown.Item>
+                          <NavDropdown.Item id={idx} as={Link} to={item.title}>{item.title}</NavDropdown.Item>
                         </div>
                       )
                     })
