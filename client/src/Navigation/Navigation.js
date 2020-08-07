@@ -28,33 +28,29 @@ function Navigation() {
 
   return (
     <div>
-      <Navbar variant="dark" collapseOnSelect="true" expand="lg" className="nav-color">
+      <Navbar collapseOnSelect expand="xl" variant="dark" className="nav-color">
         <Navbar.Brand href="/">LukeEvents.com</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             {navData.map((section, sIdx) => {
               return (
-                <div key={sIdx}>
-                  {section.type === 'link' ? <Nav.Link as={Link} id={sIdx} to={section.path} key={section.id}>{section.category}</Nav.Link> : ''}
-                  {section.type === 'dropdown' ? <NavDropdown id={sIdx} title={section.category} key={section.id} className='basic-nav-dropdown'>
+                <>
+                  {section.type === 'link' ? <Nav.Link as={Link} id={sIdx} eventKey={section.category} to={section.path} key={section.id}>{section.category}</Nav.Link> : ''}
+                  {section.type === 'dropdown' ? <NavDropdown id={sIdx} eventKey={section.category} title={section.category} key={section.id} className='basic-nav-dropdown'>
                     {section.items.map((item, idx) => {
                       return (
-                        <div key={idx}>
-                          <NavDropdown.Item id={idx} as={Link} to={item.title}>{item.title}</NavDropdown.Item>
-                        </div>
+
+                        <NavDropdown.Item id={idx} eventKey={item.title} as={Link} to={item.title}>{item.title}</NavDropdown.Item>
+
                       )
                     })
                     }
                   </NavDropdown> : ''}
-                </div>
+                </>
               )
             })}
           </Nav>
-          {/* <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-success">Search</Button>
-        </Form> */}
         </Navbar.Collapse>
       </Navbar>
     </div>

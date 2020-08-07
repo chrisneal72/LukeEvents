@@ -9,6 +9,7 @@ h3 {
 .body-container {
   position: relative;
   height: 100%;
+  max-width: 1020px;
 }
 
 .top-row {
