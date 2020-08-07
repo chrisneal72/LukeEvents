@@ -13,8 +13,8 @@ function App() {
       <Router>
         {window.location.pathname !== "/admin" && <Navigation />}
         <Switch>
-          <Route exact path="/:pageId" component={Base} />
           <Route exact path="/admin" component={Admin} />
+          <Route exact path="/:pageId" component={Base} />
           <Route component={Home} />
         </Switch>
         {window.location.pathname !== "/admin" && <Footer />}
