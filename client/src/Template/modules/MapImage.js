@@ -1,7 +1,6 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Image from 'react-bootstrap/Image'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../template.css';
 
 const MainImage = (props) => {

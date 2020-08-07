@@ -37,7 +37,7 @@ function Navigation() {
               return (
                 <>
                   {section.type === 'link' ? <Nav.Link as={Link} id={sIdx} eventKey={section.category} to={section.path} key={section.id}>{section.category}</Nav.Link> : ''}
-                  {section.type === 'dropdown' ? <NavDropdown id={sIdx} eventKey={section.category} title={section.category} key={section.id} className='basic-nav-dropdown'>
+                  {section.type === 'dropdown' ? <NavDropdown id={sIdx} title={section.category} key={section.id} className='basic-nav-dropdown'>
                     {section.items.map((item, idx) => {
                       return (
 

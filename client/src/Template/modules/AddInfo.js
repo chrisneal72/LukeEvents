@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Col, Button } from "react-bootstrap";
 import { UlList, ListLink, List } from '.';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../template.css';
 
 const AddInfo = ({ props }) => {
