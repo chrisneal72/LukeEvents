@@ -11,11 +11,11 @@ import SmallIcons from "../SmallIcons/SmallIcons";
 const Style1 = ({ currentPage }) => {
   return (
     <Container className="body-container">
-      <Row className="top-row">
+      <Row xs={1} sm={2} className="top-row">
         <Col xs={12} sm={6} className="align-left"><h2>{currentPage.title}</h2></Col>
         <Col xs={12} sm={6}><SmallIcons></SmallIcons></Col>
       </Row>
-      <Row>
+      <Row xs={1} sm={2}>
         <Col xs={12} sm={8} className="align-left">
           <Row>
             <Col>
