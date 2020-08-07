@@ -6,10 +6,15 @@ h3 {
   display: inline;
 }
 
+.body-container-home {
+  position: relative;
+  height: 100%;
+}
+
 .body-container {
   position: relative;
   height: 100%;
-  max-width: 1020px;
+  max-width: 1000px;
 }
 
 .top-row {

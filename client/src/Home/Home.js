@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Home = () => {
   return (
     <div>
-      <Carousel className="body-container" interval={4000}>
+      <Carousel className="body-container-home" interval={4000}>
         <Carousel.Item>
           <img
             className="w-100"
