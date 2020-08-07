@@ -1,6 +1,6 @@
 import React from 'react';
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Row, Col } from "react-bootstrap";
+import LazyLoad from "react-lazyload";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.css';
 
@@ -11,12 +11,14 @@ const Footer = ({ state }) => {
         <Row>
           <Col className="footer-col" xs={12} md={6} lg={3}>
             <h5>Luke Air Force Base, AZ</h5>
-            <img
-              alt="56 FSS Logo"
-              width={150}
-              height={150}
-              src="images\FSS_bull_logo2.png"
-            />
+            <LazyLoad>
+              <img
+                alt="56 FSS Logo"
+                width={150}
+                height={150}
+                src="images\FSS_bull_logo2.png"
+              />
+            </LazyLoad>
           </Col>
 
           <Col className="footer-col" xs={12} md={6} lg={3}>

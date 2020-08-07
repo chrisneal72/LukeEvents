@@ -1,6 +1,7 @@
 import React from 'react';
 import { FacebookProvider, Page } from 'react-facebook';
 import { Container, Row, Col } from "react-bootstrap";
+import LazyLoad from "react-lazyload";
 import { TopImage, MainImage, MapImage, FacInfo, BodyCopy, AddImages, AddInfo } from './modules';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './template.css';
@@ -33,13 +34,14 @@ const Style1 = ({ currentPage }) => {
           {currentPage.mapImage && <MapImage path={currentPage.mapImage} />}
           {currentPage.facInfo && <FacInfo info={currentPage.facInfo} />}
           {currentPage.facebook && <FacebookProvider appId={process.env.REACT_APP_FACEBOOK_APP_ID}>
-            <h4>Current Events</h4>
-            <Page href={"https://www." + currentPage.facebook} tabs="events" />
+            <LazyLoad>
+              <h4>Current Events</h4>
+              <Page href={"https://www." + currentPage.facebook} tabs="events" /></LazyLoad>
           </FacebookProvider>}
         </Col>
       </Row>
 
-    </Container>
+    </Container >
   );
 }
 
