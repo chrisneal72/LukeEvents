@@ -9,7 +9,7 @@
     "jsonwebtoken": "^8.5.1",
     "jwk-to-pem": "^2.0.2",
     "mongodb": "^3.6.0",
-    "mongoose": "^5.9.27",
+    "mongoose": "^5.9.28",
     "node-fetch": "^2.6.0",
     "react-share": "^4.0.1",
     "request": "^2.88.0"
