@@ -5,10 +5,10 @@ const connectToDatabase = async () => {
     // process.env.MONGODB_CLOUD_URI || "mongodb://localhost/lukeevents",
     process.env.MONGODB_CLOUD_URI,
     {
-      useCreateIndex: true,
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useFindAndModify: false,
+      // useCreateIndex: true,
+      // useNewUrlParser: true,
+      // useUnifiedTopology: true,
+      // useFindAndModify: false,
     }
   );
 
