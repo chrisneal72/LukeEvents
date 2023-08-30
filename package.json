@@ -8,7 +8,7 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "jwk-to-pem": "^2.0.2",
-    "mongodb": "^4.10.0",
+    "mongodb": "^4.17.0",
     "mongoose": "^6.6.5",
     "node-fetch": "^3.2.10",
     "react-share": "^4.0.1",
